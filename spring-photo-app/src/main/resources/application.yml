@@ -1,0 +1,16 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: photo-app
+    jackson:
+      default-property-inclusion: non_null
+
+  servlet:
+    multipart:
+      enabled: true
+
+app:
+  file:
+    default-path: c:\photo-app\upload
